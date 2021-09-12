@@ -1,0 +1,26 @@
+.but{
+    width: 100%;
+}
+
+.taklifcontainer{
+    width: 100%;
+    box-shadow: 5px 5px 5px rgb(37, 5, 110);
+}
+
+.taklifcontainer:hover{
+    width: 100%;
+    box-shadow: 7px 7px 7px rgb(37, 5, 110);
+    transition: box-shadow 0.6s;
+}
+
+@font-face {
+    font-family: 'Vazir';
+    src: url("../fonts/Vazir-Regular.ttf") format("TypeTrue");
+    src: url("../fonts/Vazir-Regular.eot");
+    src: url("../fonts/Vazir-Regular.woff");
+    src: url("../fonts/Vazir-Regular.woff2");
+}
+
+body{
+    font-family: 'Vazir';
+}
